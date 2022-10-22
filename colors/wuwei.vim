@@ -4,12 +4,12 @@ if exists("syntax_on")
     syntax reset
 endif
 
-if !exists("g:april_endofbuffer")
-    let g:april_endofbuffer=1
+if !exists("g:wuwei_endofbuffer")
+    let g:wuwei_endofbuffer=1
 endif
 
 
-let g:colors_name = "april"
+let g:colors_name = "wuwei"
 
 
 hi! Normal      gui=NONE guifg=#b3b3a3 guibg=#191a1b
@@ -62,7 +62,7 @@ hi! link csStorage Statement
 hi! link csOpSymbols Normal
 hi! link csLogicSymbols Normal
 hi! link csClass Type
-if g:april_endofbuffer == 1
+if g:wuwei_endofbuffer == 1
     hi! EndOfBuffer guifg=#303030 guibg=NONE
 else
     hi! EndOfBuffer guifg=#191a1b
