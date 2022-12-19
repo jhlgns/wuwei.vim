@@ -82,3 +82,11 @@ hi! diffRemoved guibg=#191919 guifg=#ff3333
 hi! DiffChange  guibg=#191919 guifg=#ffff33
 hi! diffChanged guibg=#191919 guifg=#ffff33
 hi! DiffText    guibg=#191919 guifg=#226666
+
+
+
+hi! htmlTag guifg=#444444
+hi! htmlEndTag guifg=#444444
+hi! htmlTagName guifg=#665544
+
+au BufNewFile,BufRead *.html, *.html
