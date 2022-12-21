@@ -87,6 +87,8 @@ hi! DiffText    guibg=#191919 guifg=#226666
 
 hi! htmlTag guifg=#444444
 hi! htmlEndTag guifg=#444444
-hi! htmlTagName guifg=#665544
+hi! htmlTagName guifg=#554433
+hi! htmlArg guifg=#503040
+hi! htmlString guifg=#095f4f
+hi! htmlBold gui=bold
 
-au BufNewFile,BufRead *.html, *.html
