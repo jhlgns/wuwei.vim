@@ -48,8 +48,9 @@ if (has('linux'))
 else
     hi! VertSplit    gui=NONE guifg=#b3b3a3 guibg=#191919
 endif
-hi! StatusLine   gui=NONE guifg=#d1c4c4 guibg=#1b1b1b
-hi! StatusLineNC gui=NONE guifg=#d0c0c0 guibg=#1b1b1b
+
+hi! StatusLine   gui=NONE guifg=#191a1b guibg=#b3b3a3
+hi! StatusLineNC gui=NONE guifg=#191a1b guibg=#b3b3a3
 hi! Visual       guibg=#393939
 hi! Search       guibg=#191a1b guifg=#832560
 hi! Pmenu        guibg=#111111
