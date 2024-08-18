@@ -1,10 +1,13 @@
-# April.vim
-Handcrafted Vim colorscheme by jhlgns
+# wuwei.vim
+
+Handcrafted VIM colorscheme by jhlgns.
 
 ## Installation
-Compatible with any popular Vim plugin manager.
+
+Compatible with any popular VIM plugin manager.
+
 ```vim
-Plugin 'jhlgns/april.vim'
+Plugin 'jhlgns/wuwei.vim'
 ```
 
 ## Screenshot
